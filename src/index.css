@@ -2,8 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer {
+  .elementCenter {
+    @apply flex items-center justify-center;
+  }
+  .btnn {
+    @apply bg-[#42b0d1] hover:bg-[#8cdae4] transition-all duration-200;
+  }
+}
+  
 body {
   font-family: "Roboto", sans-serif;
-  background:#1c2230;
+  background-color:#181e2a;
   height: 5000px;
 }
+
