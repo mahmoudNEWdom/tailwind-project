@@ -3,8 +3,8 @@ import React from 'react';
 const Landing1 = () => {
     return (
         <>
-        <section className="bg-[#1c2230] elementCenter">
-            <div className='container '>
+        <section className="bg-[#1c2230] ">
+            <div className='container mx-auto'>
                 <div className='elementCenter flex-col pt-[150px]'>
                     <div className='w-full max-w-[750px]'>
                         <img className='mx-auto w-full h-fit ' src="/src/assets/illustration-intro.png" alt="illustration" />
@@ -18,7 +18,9 @@ const Landing1 = () => {
                 </div>
                         <a href="#" className='btnn w-[250px] h-[60px] rounded-[30px] text-white elementCenter font-medium'>Get Started</a>
                 </div>
-
+            </div>
+            <div className='w-full '>
+                <img className='w-full h-[200px] ' src="src/assets/bg-curvy-desktop.svg" alt="curvy background" />
             </div>
         </section>
         </>

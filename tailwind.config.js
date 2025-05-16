@@ -6,6 +6,19 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#67dbda",
+      },
+      keyframes: {
+        moveRight: {
+          "0%": { transform: "translateX(0)" },
+          "50%": { transform: "translateX(10px)" },
+          "100%": { transform: "translateX(0px)" },
+        },
+      },
+      animation: {
+        moveRight: "moveRight 1.5s ease-in-out infinite",
+      },
       screens: {
         sm: "576px"
         , // => @media (min-width: 576px) { ... }
