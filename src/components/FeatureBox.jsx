@@ -1,6 +1,7 @@
 import React from 'react';
 
-const FeatureBox = ({title ,icon ,desc}) => {
+const FeatureBox = ({...props}) => {
+    const {icon, title, desc} = props;
     return (
         <div className='text-white'>
             <div className='elementCenter flex-col'>
