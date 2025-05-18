@@ -28,7 +28,7 @@ const Testimonials = () => {
             <section className='pb[350px]'>
                 <div className='container mx-auto '>
                     <div className='relative left-[-10px] top-[15px]'>
-                        <img src="src/assets/bg-quotes.png" alt="quote" />
+                        <img src="public/assets/bg-quotes.png" alt="quote" />
                     </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[50px]'>
                     {Clients.map((client, index) => (

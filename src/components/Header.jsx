@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import logo from '../assets/logo.svg';
-import { useRef } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
+import logo from '/assets/logo.svg';
 
 const Header = () => {
 
