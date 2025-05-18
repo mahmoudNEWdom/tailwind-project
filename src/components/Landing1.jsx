@@ -6,7 +6,7 @@ const Landing1 = () => {
             <div className='container mx-auto'>
                 <div className='elementCenter flex-col pt-[150px]'>
                     <div className='w-full max-w-[750px]'>
-                        <img className='mx-auto w-full h-fit ' src="./assets/illustration-intro.png" alt="illustration" />
+                        <img className='mx-auto w-full h-fit ' src="public/assets/illustration-stay-productive.png" alt="illustration" />
                     </div>
                     <div className='text-white mx-auto text-center w-full max-w-[750px]'>
                         <br />
