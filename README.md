@@ -1,6 +1,6 @@
 # 🔥 Fylo Landing Page | Tailwind CSS Showcase 🎨
 
-![Image](https://github.com/user-attachments/assets/9beb1c78-f72b-4e04-908d-00bdbc697973)
+[![Preview](https://github.com/user-attachments/assets/9beb1c78-f72b-4e04-908d-00bdbc697973)](https://mahmoudnewdom.github.io/tailwind-project/)
 ## ✨ What I Built
 A sleek, responsive landing page using React + Tailwind CSS that shows off modern web design techniques and component architecture.
 
