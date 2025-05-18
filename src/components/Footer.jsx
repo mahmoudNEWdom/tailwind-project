@@ -9,7 +9,7 @@ const Footer = () => {
         <section className='bg-[#0c1524] text-white mt-[-200px] relative z-10'>
             <div className='container mx-auto px-6 flex flex-col pt-[230px] pb-12'>
                 <a href="/" className="mb-8">
-                    <img src="public/assets/logo.svg" alt="logo" className='w-[150px] md:w-[175px] h-auto object-contain' />
+                    <img src="assets/logo.svg" alt="logo" className='w-[150px] md:w-[175px] h-auto object-contain' />
                 </a>
                 
                 <div className='w-full'>
@@ -19,7 +19,7 @@ const Footer = () => {
                         {/* Location section */}
                         <div className='flex gap-4 md:gap-8 items-start'>
                             <img className='w-[19px] h-[18px] mt-1 flex-shrink-0 object-contain' 
-                                 src="public/assets/icon-location.svg" alt="location" />
+                                 src="assets/icon-location.svg" alt="location" />
                             <p className='font-normal tracking-[0.8px] text-sm'>
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sunt sint velit 
                                 voluptatem aut nisi amet corrupti.
@@ -30,12 +30,12 @@ const Footer = () => {
                         <div className='space-y-4'>
                             <div className='flex gap-4 items-center'>
                                 <img className='w-[19px] h-[18px] flex-shrink-0 object-contain' 
-                                     src="public/assets/icon-phone.svg" alt="phone" />
+                                     src="assets/icon-phone.svg" alt="phone" />
                                 <p className='font-normal tracking-[0.8px] text-sm'>+1-543-123-4567</p>
                             </div>
                             <div className='flex gap-4 items-center'>
                                 <img className='w-[19px] h-[18px] flex-shrink-0 object-contain' 
-                                     src="public/assets/icon-email.svg" alt="email" />
+                                     src="assets/icon-email.svg" alt="email" />
                                 <p className='font-normal tracking-[0.8px] text-sm'>example@example.com</p>
                             </div>
                         </div>

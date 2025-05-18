@@ -9,7 +9,7 @@ const ClientBox = ({...props}) => {
                 {testimonial}
             </p>
             <div className='flex items-center gap-[20px]'>
-                <img src={`./public/assets/${image}`} alt="client" className='w-[100px] h-[100px] rounded-full' />
+                <img src={`./assets/${image}`} alt="client" className='w-[100px] h-[100px] rounded-full' />
             <div>
                 <strong className='block mb-3'>{client}</strong>
                 <p className='text-sm font-normal'>{position}</p>
