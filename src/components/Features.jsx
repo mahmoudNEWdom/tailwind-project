@@ -28,7 +28,7 @@ const Features = () => {
 
     return (
        <>
-       <div className='py-[100px]'>
+       <div className='pb-[150px]'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-[120px] w-[1100px] mx-auto max-w-full text-center'>
             {Features.map((item)=>{
                 return (

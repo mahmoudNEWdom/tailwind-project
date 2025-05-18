@@ -2,7 +2,7 @@ import React from 'react';
 
 const StayProductive = () => {
     return (
-        <section>
+        <section className='pb-[150px]'>
             <div className='container elementCenter mx-auto'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-[120px]  place-items-center'>
                     <div>
